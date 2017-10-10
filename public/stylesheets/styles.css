@@ -1,0 +1,144 @@
+.bs-cont{
+    color: gold;
+    height: 100vh;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: orange;
+}
+
+.bs-col{
+    height:100vh;
+    background-color: orange;
+    padding: 0%;
+}
+
+.log_pass{
+}
+
+div.form-group.log_pass{
+    margin-bottom: 0%;
+}
+
+div.col-lg-6.col-md-offset-3{
+    padding: 0%;
+}
+
+
+input.form-control{
+    max-width: 60%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: 1px solid black;
+    border-radius: 0px;
+    padding-top: 4.3%;
+    padding-bottom: 4.3%;
+    bottom: 0px;
+    font-size: 150%;
+}
+
+form.log_pass{
+    margin-bottom: 0%;
+    margin-top: 40%;
+}
+
+form.form-group>.log_pass{
+
+}
+
+p.lead{
+    background-color: black;
+    max-width: 60%;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    margin-bottom: 0%;
+    font-size: 220%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+button.btn{
+    background-color: black;
+    color : white;
+    border-radius: 0px;
+    border: none;
+    max-width: 30%;
+    width: 18%;
+    padding: 1%;
+    margin-left: 41%;
+    margin-right: 41%;
+    font-size: 250%;
+}
+
+#registration{
+    margin-top: 4%;
+}
+
+#signin{
+    margin-top: 15%;
+}
+
+
+.forgotten{
+    color: black;
+    max-width: 100%;
+    width: 36%;
+    text-align: center;
+    margin-left: 26%;
+    margin-top: 4%;
+    font-size: 144%;
+}
+
+.forgotten_ref{
+    color: black ! important;
+}
+
+@media screen and (max-width: 1920px) {
+    #registration{
+        font-size: 175%;
+    }
+
+    .forgotten{
+        margin-left: 31%;
+        font-size: 220%;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    #registration{
+        font-size: 175%;
+    }
+
+    .forgotten{
+        margin-left: 31%;
+        font-size: 220%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #registration{
+        font-size: medium;
+    }
+
+    .forgotten{
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #registration{
+        font-size: small;
+    }
+    .forgotten{
+        font-size: 144%;
+        margin-left: 25%;
+    }
+}

@@ -1,0 +1,32 @@
+body{
+    background-color: orange;
+}
+
+.centered-form{
+    margin-top: 25%;
+}
+
+.centered-form .panel{
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+
+label.label-floatlabel {
+    font-weight: bold;
+    color: #46b8da;
+    font-size: 11px;
+}
+
+#Submit_btn{
+    background-color: black;
+    border-radius:  5px;
+    color: #eeeeee;
+    width: 100%;
+    font-family: "Courier 10 Pitch";
+    font-size: large;
+
+}
+
+.pnl_title{
+    text-align: center;
+}

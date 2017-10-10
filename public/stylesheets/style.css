@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#Submit_btn{
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+#return_btn{
+width: 100%;
+}
+
+td{
+ padding-top: 2%!important;
+}
+
+#btn_td{
+  padding-top: 1.22%!important;
+}

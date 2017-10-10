@@ -1,0 +1,60 @@
+<form class="from" action="/users/{{id}}?_method=DELETE" method="post">
+
+<div class="breadcrums_panel">
+    <div class="breadcrums_">
+        <ol class="breadcrumb">
+            <li><a href="#">Users</a></li>
+            <li><a href="#">Update</a></li>
+        </ol>
+    </div>
+    <div class="drops_">
+
+    </div>
+</div>
+
+<div class="container-fluid conent_inside">
+    <div class="table_wrapper_personal">
+    <table class="table table-hover users_table">
+        <thead class="thead_genuine">
+        <tr>
+            <th></th>
+            <th id="username">Name</th>
+            <th id="mail">Email</th>
+            <th id="role">Role</th>
+            <th id="ltsi">Last time signed in</th>
+            <th id="burger_button"></th>
+        </tr>
+
+        </thead>
+        <tbody>
+          {{#each users}}
+          <tr> <td></td> <td>{{name}}</td> <td>{{email}}</td> <td>{{role}}</td> <td>{{date}}</td>
+            <td id="btn_td">
+              <!-- <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="glyphicon glyphicon-option-horizontal"></span>
+                      </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                    </ul>
+                    </div>
+                    <div class="btn-group"> -->
+                    <form class="from" action="/users/{{id}}?_method=DELETE" method="post">
+                    <div class="btn-group" role="group" aria-label="...">
+                      <a class="btn btn-default" href="/users/{{id}}/reset" role="button">Reset password</a>
+                      <a class="btn btn-default" href="/users/{{id}}/edit" role="button">Update</a>
+                      <button type="submit" class="btn btn-default"  role="button">Delete</button>
+                    </form>
+                    </div>
+            </td>
+          </tr>
+          {{/each}}
+        </tbody>
+    </table>
+    </div>
+</div>
+
+
+</form>
